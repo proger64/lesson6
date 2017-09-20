@@ -7,7 +7,7 @@ public class Task1 {
 		Scanner sc= new Scanner(System.in);
 		for(int i=0;i<a.length;i++){
 			int x=i+1;
-			System.out.println("¬ведите "+x+"число111");
+			System.out.println("¬ведите "+x+"число");
 			a[i]= sc.nextInt();
 		}
 		System.out.println("»сходный массив:");
@@ -21,6 +21,7 @@ public class Task1 {
 			System.out.println(a[i]);
 		}
 		
-	}  
+	}
+	   
 		
 }
